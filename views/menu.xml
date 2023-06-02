@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="menu_portfolio" name="Portfolio" groups="base.group_user" sequence="1"/>
+
+    <!-- Dashboard Menu -->
+    <menuitem id="menu_portfolio_dashboard" name="Dashboard" parent="menu_portfolio" action="portfolio.action_dashboard" sequence="2"/>
+
+    <!-- Portfolio Menu -->
+    <menuitem id="menu_portfolio_portfolio" name="Portfolio" parent="menu_portfolio" action="portfolio.action_portfolio" sequence="3"/>
+    
+    <!--Assets  Menu -->
+    <menuitem id="menu_portfolio_asset" name="Assets" parent="menu_portfolio" sequence="4"/>
+    <menuitem id="menu_portfolio_asset_list" name="Asset List" parent="menu_portfolio_asset" action="portfolio.action_asset" sequence="1"/>
+    <menuitem id="menu_portfolio_asset_transactions" name="Transactions" parent="menu_portfolio_asset" action="portfolio.action_transactions" sequence="2"/>
+
+    <!-- Configuration Menu -->
+    <menuitem id="menu_portfolio_configuration" name="Configuration" parent="menu_portfolio" sequence="5"/>
+    <menuitem id="menu_portfolio_transactions_type" name="Transaction Type" parent="menu_portfolio_configuration" action="portfolio.action_transactions_type"/>
+
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_portfolio_dashboard">
+            <field name="name">portfolio.dashboard</field>
+            <field name="model">portfolio.portfolio</field>
+            <field name="arch" type="xml">
+                <dashboard>
+                    <page string="Dashboard">
+                        <p>Welcome to Portfolio</p>
+                    </page>
+                </dashboard>
+            </field>
+        </record>
+
+        <template id="view_dashboard">
+            <t t-name="portfolio.dashboard">
+                <div class="oe_dashboard">
+                    <h1>Hello World!</h1>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

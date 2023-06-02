@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+        <template id="view_dashboard">
+            <t t-name="portfolio.dashboard">
+                <div class="oe_dashboard">
+                    <h1>Hello World!</h1>
+                </div>
+            </t>
+        </template>
+
+    <record model="ir.actions.act_window" id="action_dashboard">
+        <field name="name">Dashboard</field>
+        <field name="res_model">portfolio.asset</field>
+        <field name="view_mode">graph</field>
+        <field name="view_id" ref="view_dashboard"/>
+    </record>
+</odoo>

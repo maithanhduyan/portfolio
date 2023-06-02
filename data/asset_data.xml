@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Asset Data -->
+        <record model="portfolio.asset" id="asset_btc">
+            <field name="name">Bitcoin</field>
+            <field name="code">BTC</field>
+            <field name="website">https://bitcoin.org</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_eth">
+            <field name="name">Ethereum</field>
+            <field name="code">ETH</field>
+            <field name="website">https://ethereum.org</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_xrp">
+            <field name="name">XRP</field>
+            <field name="code">XRP</field>
+            <field name="website">https://ripple.com/currency/</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_bch">
+            <field name="name">Bitcoin Cash</field>
+            <field name="code">BCH</field>
+            <field name="website">https://www.bitcoincash.org/</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_ltc">
+            <field name="name">Litecoin</field>
+            <field name="code">LTC</field>
+            <field name="website">https://litecoin.org/</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_doge">
+            <field name="name">Dogecoin</field>
+            <field name="code">DOGE</field>
+            <field name="website">https://dogecoin.com/</field>
+        </record>
+        
+        <record model="portfolio.asset" id="asset_sol">
+            <field name="name">Solana</field>
+            <field name="code">SOL</field>
+            <field name="website">https://solana.com</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_bnb">
+            <field name="name">Binance Coin</field>
+            <field name="code">BNB</field>
+            <field name="website">https://www.binance.com</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_dot">
+            <field name="name">Polkadot</field>
+            <field name="code">DOT</field>
+            <field name="website">https://polkadot.network</field>
+        </record>
+
+        <record model="portfolio.asset" id="asset_ada">
+            <field name="name">Cardano</field>
+            <field name="code">ADA</field>
+            <field name="website">https://www.cardano.org</field>
+        </record>
+        <!-- Add more asset records here -->
+
+    </data>
+</odoo>

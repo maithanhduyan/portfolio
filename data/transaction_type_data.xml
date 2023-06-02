@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Transaction Type Data -->
+        <record model="portfolio.transaction_type" id="1">
+            <field name="name">BUY</field>
+            <field name="description">BUY</field>
+        </record>
+
+        <record model="portfolio.transaction_type" id="2">
+            <field name="name">SELL</field>
+            <field name="description">SELL</field>
+        </record>
+
+        <record model="portfolio.transaction_type" id="3">
+            <field name="name">TRANSFER_IN</field>
+            <field name="description">TRANSFER_IN</field>
+        </record>
+
+        <record model="portfolio.transaction_type" id="4">
+            <field name="name">TRANSFER_OUT</field>
+            <field name="description">TRANSFER_OUT</field>
+        </record>
+    </data>
+</odoo>
